@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a:link {
+    text-decoration: none;
+  }
 :root {
     --menu-text: #4a4a4a;
     --main-backround: #3CDBC0;
@@ -19,9 +22,39 @@
     justify-content: center;
     z-index: 1;
 }
+.logo {
+    width: 155px;
+    margin-top: 10px;
+}
+.menu {
+    padding-top: 10px;
+    padding-bottom: 13px;
+    font-family: 'Rubik', sans-serif;
+}
+.menu-link {
+    color: var(--menu-text);
+    font-size: 1rem;
+    margin: 10px;
+    margin-bottom: 13px;
+}
+
 /*----MAIN----*/
 .main-container {
     background-color: var(--main-backround);
     height: 100vh;
     position: relative;
+    top: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.main-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;;
+    font-size: 1.875rem;
+    color: var(--main-text);
 }
