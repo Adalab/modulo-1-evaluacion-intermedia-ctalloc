@@ -37,7 +37,8 @@ a:link {
 .menu-link {
   color: var(--menu-text);
   font-size: 1rem;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 13px;
   text-transform: uppercase;
 }
@@ -47,7 +48,7 @@ a:link {
   background-color: var(--main-backround);
   height: 100vh;
   position: relative;
-  top: 113px;
+  top: 117px;
   display: flex;
   flex-direction: column;
   justify-content: center;
