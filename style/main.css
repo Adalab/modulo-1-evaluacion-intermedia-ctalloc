@@ -32,9 +32,13 @@ a:link {
 .menu {
   padding-top: 10px;
   padding-bottom: 13px;
-  font-family: "Rubik", sans-serif;
+}
+.list-item {
+  text-decoration: none;
+  display: inline-block;
 }
 .menu-link {
+  font-family: "Rubik", sans-serif;
   color: var(--menu-text);
   font-size: 1rem;
   margin-left: 10px;
@@ -72,10 +76,6 @@ a:link {
     flex-direction: row;
     justify-content: space-between;
   }
-  .logo {
-    width: 100%;
-    padding: 0;
-  }
   .logo-container {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -89,7 +89,7 @@ a:link {
   .main-container {
     position: relative;
     top: 105px;
-  } 
+  }
   .main-text-item {
     font-size: 2.5rem;
   }
