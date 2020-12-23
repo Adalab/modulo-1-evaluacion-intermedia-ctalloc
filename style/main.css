@@ -39,6 +39,7 @@ a:link {
   font-size: 1rem;
   margin: 10px;
   margin-bottom: 13px;
+  text-transform: uppercase;
 }
 
 /*----MAIN----*/
@@ -57,13 +58,15 @@ a:link {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.main-text-item {
   font-family: "Rubik", sans-serif;
   font-size: 1.875rem;
   color: var(--main-text);
 }
 /*----MEDIAQUERIES----*/
 @media all and (min-width: 768px) {
-    /*----header----*/
+  /*----header----*/
   .header-container {
     flex-direction: row;
     justify-content: space-between;
@@ -78,18 +81,15 @@ a:link {
     margin-left: 30px;
   }
   .menu {
-    font-family: "Rubik", sans-serif;
-  }
-  .menu {
     padding: 0;
     margin-right: 20px;
   }
-    /*----MAIN----*/
+  /*----MAIN----*/
   .main-container {
     position: relative;
     top: 105px;
-  }
-  .main-text-container {
+  } 
+  .main-text-item {
     font-size: 2.5rem;
   }
 }
